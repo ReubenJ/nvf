@@ -66,7 +66,6 @@ in {
 
   luaInline = lib.mkOptionType {
     name = "luaInline";
-    check = x: lib.nvim.lua.isLuaInline x;
   };
 
   /*
